@@ -38,11 +38,11 @@ reports are available in ``/offers/target/site/jacoco``
 
 2. offers are displayed in the application
 
-3. access the individual using http://localhost:8001/offers/1.
+3. access the individual using http://localhost:8001/offers/{id}.
 
 4. use POST method http://localhost:8001/offers to create the new offer.
 
-5. cancel the offer using http://localhost:8001/offers/1/cancel
+5. cancel the offer using http://localhost:8001/offers/{id}/cancel
 
 6. Access the API docs using url http://localhost:8001/v3/api-docs/, and swagger UI with http://localhost:8001/swagger-ui/index.html.
 
